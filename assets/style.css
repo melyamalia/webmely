@@ -1,0 +1,154 @@
+/* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header-area {
+  background: #0d6efd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-area .main-nav .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.header-area .main-nav .nav li a {
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.header-area .main-nav .nav li a:hover,
+.header-area .main-nav .nav li a.active {
+  color: #ffc107;
+}
+
+/* Welcome */
+.welcome-area {
+  background: linear-gradient(to right, #0d6efd, #3f51b5);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.header-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.main-button-slider,
+.main-button {
+  background: #ffc107;
+  color: #000;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.main-button:hover,
+.main-button-slider:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.section.bg-light {
+  background-color: #f4f6f8;
+}
+
+.section h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Cards */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0d6efd;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #0d6efd;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+footer .social li a {
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+footer .social li a:hover {
+  color: #ffc107;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-text h1 {
+    font-size: 2rem;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+}
