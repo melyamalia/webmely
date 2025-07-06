@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB Data Mining</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 20px;
+      line-height: 1.8;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WEB Data Mining</h1>
+    <h2>
+        Penggalian data (data mining) adalah ekstraksi pola yang menarik dari data dalam jumlah besar.[1] Suatu pola dikatakan menarik apabila pola tersebut tidak sepele, implisit, tidak diketahui sebelumnya, dan berguna.
+        Pola yang disajikan haruslah mudah dipahami, berlaku untuk data yang akan diprediksi dengan derajat kepastian tertentu, berguna, dan baru. Penggalian data memiliki beberapa nama alternatif, meskipun definisi eksaknya berbeda, seperti KDD (knowledge discovery in database), analisis pola, arkeologi data, pemanenan informasi, dan intelegensia bisnis. 
+        Penggalian data diperlukan saat data yang tersedia terlalu banyak (misalnya data yang diperoleh dari sistem basis data perusahaan, e-commerce, data saham, data sensus dan data bioinformatika), tetapi tidak tahu pola apa yang bisa didapatkan.
+    </h2>
+
+    <h1>Proses Pencarian Data</h1>
+    <h2>
+      Penggalian data adalah salah satu bagian dari proses pencarian pola. Berikut ini urutan proses pencarian pola:
+    <ul>
+        <li>Pembersihan Data: yaitu menghapus data pengganggu (noise) dan mengisi data yang hilang.</li>
+        <il>Integrasi Data: yaitu menggabungkan berbagai sumber data.</il>
+        <li>Pemilihan Data: yaitu memilih data yang relevan.</li>
+        <li>Transformasi Data: yaitu mentransformasi data ke dalam format untuk diproses dalam penggalian data.</li>
+        <li>Penggalian Data: yaitu menerapkan metode cerdas untuk ekstraksi pola.</li>
+        <li>Evaluasi pola: yaitu mengenali pola-pola yang menarik saja.</li>
+        <li>Penyajian pola: yaitu memvisualisasi pola ke pengguna.</li>
+    </ul>
+    </h2>
+    <h2>Perkembangan yang pesat di bidang pengumpulan data dan teknologi penyimpanan di berbagai bidang, menghasilkan basis data yang terlampau besar. Namun, data yang dikumpulkan jarang dilihat lagi karena terlalu panjang, membosankan, dan tidak menarik. Seringkali, keputusan -yang katanya berdasarkan data- dibuat tidak lagi berdasarkan data, melainkan dari intuisi para pembuat keputusan, sehingga lahirlah cabang ilmu penggalian data ini.</h2>
+    <h2>Analisis data tanpa menggunakan otomasi dari penggalian data adalah tidak memungkinkan lagi, kalau (1) data terlalu banyak, (2) dimensionalitas data terlalu besar, (3) data terlalu kompleks untuk dianalisis manual (misalnya: data time series, data spatiotemporal, data multimedia, data streams).</h2>
+
+    <h1>Teknik Penggalian Data</h1>
+    <h2>
+      Pada dasarnya penggalian data dibedakan menjadi dua fungsionalitas, yaitu deskripsi dan prediksi. Berikut ini beberapa fungsionalitas penggalian data yang sering digunakan:
+    <ul>
+        <li>Karakterisasi dan Diskriminasi: yaitu menggeneralisasi, merangkum, dan mengkontraskan karakteristik data.</li>
+        <li>Penggalian Pola Berulang: yaitu pencarian pola asosiasi (association rule), pola intra-transaksi, atau pola pembelian yang terjadi dalam satu kali transaksi.</li>
+        <li>Klasifikasi: yaitu membangun suatu model yang bisa mengklasifikasikan suatu objek berdasarkan atribut-atributnya. Kelas target sudah tersedia dalam data sebelumnya.</li>
+        <li>Prediksi: yaitu memprediksi nilai yang tidak diketahui atau nilai yang hilang, menggunakan model dari klasifikasi.</li>
+        <li>Penggugusan (Cluster Analysis): yaitu mengelompokkan sekumpulan objek data berdasarkan kemiripannya. Kelas target tidak tersedia dalam data sebelumnya.</li>
+        <li>Analisis Outlier: yaitu proses pengenalan data yang tidak sesuai dengan perilaku umum dari data lainnya. Contoh: mengenali noise dan pengecualian dalam data.</li>
+        <li>Analisis Trend dan Evolusi: meliputi analisis regresi, penggalian pola sekuensial, analisis periodisitas, dan analisis berbasis kemiripan.</li>
+    </ul>
+    </h2>
+
+    <h2>Berikut ini adalah 10 algoritme penggalian data yang paling populer berdasarkan konferensi ICDM '06, semua algoritme dinominasikan oleh para pemenang ACM KDD Innovation Award dan IEEE ICDM Research Contributions Award:[2]
+    <ul>
+        <li>C4.5 – 61 suara</li>
+        <li>k-Means – 60 suara</li>
+        <li>SVM (Support Vector Machine) – 58 suara</li>
+        <li>Apriori – 52 suara</li>
+        <li>EM (Expectation-Maximization) – 48 suara</li>
+        <li>PageRank – 46 suara</li>
+        <li>AdaBoost – 45 suara</li>
+        <li>k-NN (k-Nearest Neighbors) – 45 suara</li>
+        <li>Naive Bayes – 34 suara</li>
+    </ul>
+    </h2>
+
+    <h2>Berikut ini adalah yang hanya masuk nominasi:
+    <ul>
+        <li>CART (Classification and Regression Tree)</li>
+        <li>FP-Tree (Frequent Pattern Tree)</li>
+        <li>HITS (Hyperlink-Induced Topic Search)</li>
+        <li>BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies)</li>
+        <li>GSP (Generalized Sequential Pattern)</li>
+        <li>PrefixSpan (Prefix-projected Sequential Pattern mining)</li>
+        <li>CBA (Classification Based on Associations)</li>
+        <li>Finding Reduct (berkaitan dengan reduksi atribut dalam rough set theory)</li>
+        <li>gSpan (Graph-based Substructure Pattern mining)</li>
+    </ul>
+    </h2>
+
+    <h1>Referensi</h1>
+    <ul>
+      <li>
+       Wikipedia, Penggalian Data
+        <br>
+        <a href="https://id.wikipedia.org/wiki/Penggalian_data" target="_blank">
+          Baca selengkapnya di sumber asli
+        </a>
+      </li>
+    </ul>
+
+    <button class="back-button" onclick="window.history.back()">← Kembali</button>
+  </div>
+</body>
+</html>
